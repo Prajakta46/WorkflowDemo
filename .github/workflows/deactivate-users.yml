@@ -1,0 +1,11 @@
+name:  Deactivation Trigger
+
+on:
+  workflow_dispatch:  
+
+jobs:
+  DeactivateUsers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions!"
